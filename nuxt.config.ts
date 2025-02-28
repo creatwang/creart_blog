@@ -72,12 +72,7 @@ export default defineNuxtConfig({
         'prevNext',
         'breadcrumb',
       ],
-    },
-    experimental: {
-      search: {
-        indexed: true,
-      },
-    },
+    }
   },
   icon: {
     clientBundle: {
