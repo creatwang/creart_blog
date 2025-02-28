@@ -18,13 +18,14 @@
   >
     <div class="mx-auto w-full min-w-0">
       <LayoutBreadcrumb v-if="page?.body && config.main.breadCrumb && (page.breadcrumb ?? true)" class="mb-4" />
-      <LayoutTitle
+<!--  暂时不需要    -->
+<!--      <LayoutTitle
         v-if="config.main.showTitle"
         :title="page?.title"
         :description="page?.description"
         :badges="page?.badges"
         :authors="page?.authors"
-      />
+      />-->
 
       <Alert
         v-if="page?.body?.children?.length === 0"

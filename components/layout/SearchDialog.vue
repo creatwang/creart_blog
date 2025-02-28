@@ -112,6 +112,7 @@ watch(
       return;
 
     searchLoading.value = true;
+    console.log('===>>>.', v);
     searchResult.value = (await searchContent(v)).value;
     searchLoading.value = false;
   },

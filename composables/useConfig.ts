@@ -9,7 +9,7 @@ const customDefu = createDefu((obj, key, value) => {
 
 const defaultConfig: DefaultConfig = {
   site: {
-    name: 'shadcn-docs',
+    name: 'yanan-docs',
     description: 'Beautifully designed Nuxt Content template built with shadcn-vue. Customizable. Compatible. Open Source.',
     ogImage: '/hero.png',
     ogImageComponent: 'ShadcnDocs',
@@ -28,7 +28,7 @@ const defaultConfig: DefaultConfig = {
   banner: {
     enable: false,
     showClose: true,
-    content: 'Welcome to **shadcn-docs-nuxt**',
+    content: 'Welcome to vill',
     to: '',
     target: '_blank',
     border: true,

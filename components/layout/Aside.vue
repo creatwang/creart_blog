@@ -5,7 +5,7 @@
     <ul v-if="config.aside.useLevel" class="flex flex-col gap-1 border-b pb-4">
       <li v-for="link in navigation" :key="link.id">
         <NuxtLink
-          :to="link.redirect ?? link._path"
+          :to="link.redirect ?? link?.children?.length ? link.children[0]._path : '/'"
           class="flex h-8 items-center gap-2 rounded-md p-2 text-sm text-foreground/80 hover:bg-muted hover:text-primary"
           :class="[
             path.startsWith(link._path) && 'bg-muted !text-primary',
@@ -19,7 +19,7 @@
           />
           {{ link.title }}
 
-          <span v-for="(badge, i) in link.navBadges" :key="i">
+          <span v-for="(badge, i) in link.Badges" :key="i">
             <Badge :variant="badge.variant" :type="badge.type" :size="badge.size ?? 'sm'">
               {{ badge.value }}
             </Badge>
@@ -51,7 +51,6 @@ const tree = computed(() => {
     const dir = navDirFromPath(leveledPath, navigation.value);
     return dir ?? [];
   }
-
   return navigation.value;
 });
 

@@ -2,7 +2,7 @@ export default defineAppConfig({
   shadcnDocs: {
     site: {
       name: 'yanan',
-      description: 'Beautifully designed Nuxt Content template built with shadcn-vue. Customizable. Compatible. Open Source.',
+      description: '没有描述',
       ogImage: '/hero.png',
       ogImageComponent: 'ShadcnDocs',
       ogImageColor: 'light',
@@ -26,7 +26,7 @@ export default defineAppConfig({
       border: true,
     },
     header: {
-      title: 'shadcn-docs',
+      title: 'yanan',
       showTitle: true,
       logo: {
         light: '/logo.svg',
@@ -36,19 +36,19 @@ export default defineAppConfig({
       nav: [{
         title: 'Docs',
         links: [{
-          title: 'Getting Started',
-          to: '/getting-started',
-          description: 'Start building your document with shadcn-docs-nuxt',
+          title: 'javascript',
+          to: '/javascript/javascript',
+          description: 'javaScript介绍及应用',
           icon: 'lucide:rocket',
         }, {
-          title: 'Components',
-          to: '/components/prose',
-          description: 'Explore available UI components and usage examples.',
+          title: 'devOps',
+          to: '/webprojectprocess/modulelize',
+          description: '前端功能化文档',
           icon: 'lucide:box',
         }, {
-          title: 'API',
-          to: '/api/configuration/shadcn-docs',
-          description: 'Discover the configurations and exposed APIs.',
+          title: '科技前沿',
+          to: '/cutting_edge_technology/sevltekit',
+          description: '移动端, 混合，pc, 跨平台, 3d, AI',
           target: '_self',
           icon: 'lucide:code',
         }],
@@ -75,11 +75,6 @@ export default defineAppConfig({
           description: 'Content made easy for Vue Developers',
           target: '_blank',
         }],
-      }, {
-        title: 'Use This Template',
-        to: '/getting-started/installation',
-        target: '_self',
-        showLinkIcon: true,
       }],
       links: [{
         icon: 'lucide:github',
@@ -97,13 +92,13 @@ export default defineAppConfig({
       breadCrumb: true,
       showTitle: true,
       codeCopyToast: true,
-      editLink: {
+   /*   editLink: {
         enable: true,
         pattern: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt/edit/main/content/:path',
         text: 'Edit this page',
         icon: 'lucide:square-pen',
         placement: ['docsFooter', 'toc'],
-      },
+      },*/
       backToTop: true,
       codeIcon: {
         'package.json': 'vscode-icons:file-type-node',
@@ -150,16 +145,16 @@ export default defineAppConfig({
       },
     },
     footer: {
-      credits: 'Made with ❤️ by [**Tony Zhang**](https://github.com/ZTL-UwU/)',
+      credits: '❤️',
       links: [
         {
-          title: 'shadcn-vue',
-          to: 'https://www.shadcn-vue.com/',
+          title: 'love',
+          to: 'https://github.com/',
           target: '_blank',
         },
         {
           icon: 'lucide:github',
-          to: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt',
+          to: 'https://github.com/',
           target: '_blank',
         },
       ],
@@ -172,14 +167,11 @@ export default defineAppConfig({
       links: [{
         title: 'Star on GitHub',
         icon: 'lucide:star',
-        to: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt',
+        to: 'https://github.com/creatwang/creat_y_blog',
         target: '_blank',
         showLinkIcon: true,
       }, {
-        title: 'Create Issues',
         icon: 'lucide:circle-dot',
-        to: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt/issues',
-        target: '_blank',
         showLinkIcon: true,
       }],
       carbonAds: {

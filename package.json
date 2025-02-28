@@ -1,5 +1,5 @@
 {
-  "name": "shadcn-docs-nuxt",
+  "name": "docs-nuxt",
   "type": "module",
   "version": "0.8.14",
   "description": "Effortless and beautiful docs template built with Nuxt Content & shadcn-vue.",
@@ -17,8 +17,7 @@
     "vue",
     "nuxt",
     "documentation-tool",
-    "nuxt-content",
-    "shadcn-vue"
+    "nuxt-content"
   ],
   "main": "./nuxt.config.ts",
   "files": [

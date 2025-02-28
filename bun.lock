@@ -2,7 +2,7 @@
   "lockfileVersion": 1,
   "workspaces": {
     "": {
-      "name": "shadcn-docs-nuxt",
+      "name": "nuxt",
       "dependencies": {
         "@iconify-json/lucide": "^1.2.26",
         "@iconify-json/vscode-icons": "^1.2.16",
